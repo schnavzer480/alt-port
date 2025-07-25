@@ -2,18 +2,32 @@ nav {
     flex: 1;
     display: flex;
     justify-content: center;
-    background-color: var(--frost);
+    background-color: var(--font);
 }
 ul {
     display: flex;
     flex-direction: row;
-    gap: 15rem;
+    gap: 25rem;
+    padding: 1rem;
 }
 li {
     font-size: 3rem;
-    color: var(--font);
+    color: var(--frost);
     list-style: none;
 }
+nav .index-menu a:link {
+    text-decoration: none;
+    color: var(--frost)
+}
+nav .index-menu a:visited {
+    text-decoration: none;
+    color: var(--clicked);
+}
+nav .index-menu a:hover {
+    font-style: italic;
+    color: var(--hover);
+}
+
 
 main {
     flex: 8;
@@ -52,4 +66,9 @@ footer {
     gap: 0.5rem;
     font-size: 2rem;
     color: var(--font);
+}
+
+footer .footer-info a:hover {
+    font-style: italic;
+    color: var(--hover);
 }

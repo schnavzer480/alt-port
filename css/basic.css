@@ -11,6 +11,8 @@
     font-family: 'DM Sans', sans-serif;
     --font: #333A41;
     --frost: #ebf2fdd2;
+    --clicked: rgb(153, 221, 17);
+    --hover: #cf1e5c;
 }
 
 html, body {
