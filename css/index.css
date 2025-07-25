@@ -1,12 +1,7 @@
-.index-menu{
-    display: flex;
+
+
+main {
+    flex: 8;
 
     background-color: blue;
-}
-
-.title-card{
-    display: flex;
-    flex: column;
-
-    background-color: green;
 }
