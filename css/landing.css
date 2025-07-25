@@ -7,7 +7,7 @@ nav {
 ul {
     display: flex;
     flex-direction: row;
-    gap: 25rem;
+    gap: 20rem;
     padding: 1rem;
 }
 li {
