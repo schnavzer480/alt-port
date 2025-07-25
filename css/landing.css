@@ -12,13 +12,15 @@ ul {
 li {
     font-size: 3rem;
     color: var(--font);
+    list-style: none;
 }
 
 main {
     flex: 8;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 10rem;
 }
 
 .title-card {
@@ -26,16 +28,13 @@ main {
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    background-color: var(--frost);
 }
 h1 {
     font-size: 4rem;
     font-weight: lighter;
-    color: var(--font);
 }
 h2 {
     font-size: 5rem;
-    color: var(--font);
 }
 
 footer {
