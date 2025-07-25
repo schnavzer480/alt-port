@@ -1,7 +1,59 @@
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 
+    background-color: green;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+}
+li {
+    font-size: 3rem;
+    color: var(--font);
+}
 
 main {
     flex: 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     background-color: blue;
+}
+
+.title-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: lighter;
+    color: var(--font);
+}
+h2 {
+    font-size: 5rem;
+    color: var(--font);
+}
+
+footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: green;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--font);
 }
