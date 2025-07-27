@@ -1,28 +1,27 @@
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding: 1rem 10rem 1rem 10rem;
-}
 li {
     font-size: 2rem;
     color: var(--font);
     list-style: none;
     text-transform: uppercase;
 }
-
-
-.nav-top {
-    width: 100%;
+.nav-menu {
     display: flex;
-    justify-content: center;
-    background-color: var(--font);
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 10rem 1rem 10rem;
 }
-.nav-bottom {
+.nav-menu li {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-top, .nav-bottom {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--font);
 }
 
@@ -36,7 +35,7 @@ li {
     color: var(--frost);
 }
 .nav-menu a:hover {
-    font-style: oblique;
+    color: var(--clicked);
 }
 
 
@@ -64,7 +63,16 @@ h2 {
 
 
 header, footer {
-    flex: 1;
+    flex: 1;   
+}
 
-    
+img.landing-logo {
+    width: 3rem;
+    height: auto;
+    align-self: center;
+    object-fit: contain;
+}
+
+.nav-top, .nav-bottom {
+    height: 5vh;
 }
