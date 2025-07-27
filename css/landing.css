@@ -17,23 +17,23 @@ li {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: var(--frost);
+    background-color: var(--font);
 }
 .nav-bottom {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: var(--frost);
+    background-color: var(--font);
 }
 
 
 .nav-menu a:link {
     text-decoration: none;
-    color: var(--font)
+    color: var(--frost)
 }
 .nav-menu a:visited {
     text-decoration: none;
-    color: var(--font);
+    color: var(--frost);
 }
 .nav-menu a:hover {
     font-style: oblique;
