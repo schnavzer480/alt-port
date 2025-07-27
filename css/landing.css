@@ -1,36 +1,47 @@
-nav {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    background-color: var(--font);
-}
 ul {
     display: flex;
     flex-direction: row;
-    gap: 20rem;
-    padding: 1rem;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 10rem 1rem 10rem;
 }
 li {
-    font-size: 3rem;
-    color: var(--frost);
+    font-size: 2rem;
+    color: var(--font);
     list-style: none;
+    text-transform: uppercase;
 }
-nav .index-menu a:link {
+
+
+.nav-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--frost);
+}
+.nav-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--frost);
+}
+
+
+.nav-menu a:link {
     text-decoration: none;
-    color: var(--frost)
+    color: var(--font)
 }
-nav .index-menu a:visited {
+.nav-menu a:visited {
     text-decoration: none;
-    color: var(--clicked);
+    color: var(--font);
 }
-nav .index-menu a:hover {
-    font-style: italic;
-    color: var(--hover);
+.nav-menu a:hover {
+    font-style: oblique;
 }
 
 
 main {
-    flex: 8;
+    flex: 18;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -51,24 +62,9 @@ h2 {
     font-size: 5rem;
 }
 
-footer {
+
+header, footer {
     flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--frost);
-}
 
-.footer-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 2rem;
-    color: var(--font);
-}
-
-footer .footer-info a:hover {
-    font-style: italic;
-    color: var(--hover);
+    
 }
