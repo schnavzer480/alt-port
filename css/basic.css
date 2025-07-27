@@ -15,10 +15,14 @@
 }
 
 html, body {
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: 'DM Sans', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 .background-image {
