@@ -15,10 +15,14 @@
 }
 
 html, body {
-    height: 100vh;
+    min-height: 100vh;
+    /*height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;*/
     font-family: 'DM Sans', sans-serif;
+}
+body {
+    display: block;
 }
 
 .background-image {
