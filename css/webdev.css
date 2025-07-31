@@ -15,9 +15,7 @@ main {
 }
 .app-box {
     width: 100%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
+    height: 100%;
 }
 p {
     font-size: 2rem;
@@ -28,7 +26,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 li {
     list-style: none;
@@ -48,16 +46,15 @@ figure {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20rem;
 }
 figcaption {
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: var(--font);
     color: var(--frost);
-    padding: 5px;
+    padding: 5px 15px;
     border-radius: 5px;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 
