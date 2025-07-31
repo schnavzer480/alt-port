@@ -13,7 +13,7 @@ main {
     align-items: center;
     padding-left: 10rem;
 }
-.contacts {
+.app-box {
     width: 100%;
     height: 10%;
     display: flex;
@@ -30,20 +30,34 @@ ul {
     justify-content: center;
     align-items: center;
 }
-
 li {
     list-style: none;
-    padding: 2rem 15rem 0 15rem;
+    padding: 0 10rem 0 10rem;
 }
-
 img {
-    width: 5rem;
+    width: 15rem;
     height: auto;
+    border-radius: 15px;
 }
-
 img:hover {
-    transform: scale(2.2);
+    transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+}
+figcaption {
+    font-size: 2rem;
+    background-color: var(--font);
+    color: var(--frost);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 
