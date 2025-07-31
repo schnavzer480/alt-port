@@ -1,7 +1,3 @@
-.contacts {
-    border: 2px solid red;
-}
-
 main {
     height: 88vh;
     display: flex;
@@ -9,26 +5,40 @@ main {
     align-items: flex-start;
     padding-top: 10rem;
 }
-
-.title-card {
+.contacts {
     display: flex;
     flex-direction: column;
+    gap: 5rem;
+}
+p {
+    font-size: 2rem;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    text-transform: uppercase;
 }
-h1 {
-    font-size: 4rem;
-    font-weight: lighter;
+li {
+    list-style: none;
+    padding: 2rem 15rem 0 15rem;
 }
-h2 {
-    font-size: 5rem;
+img {
+    width: 5rem;
+    height: auto;
 }
+img:hover {
+    transform: scale(2.2);
+    transition: transform 0.5s ease-in-out;
+}
+
 
 
 header, footer {
     height: 6vh;
 }
-
 h1 {
     font-size: 3rem;
     font-weight: lighter;
