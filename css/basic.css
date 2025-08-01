@@ -10,6 +10,7 @@
     font-size: 62.5%;
     --font: #333A41;
     --frost: #ebf2fdd2;
+    --mquery: #64686fd2;
     --clicked: rgb(221, 17, 17);
     --hover: #5c1ecf;
 }
