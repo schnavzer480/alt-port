@@ -93,16 +93,21 @@ header, footer {
     }
     .main-links ul {
         display: flex;
+        justify-content: center;
         gap: 10rem;
         list-style: none;
+        flex-wrap: wrap;
+        max-width: 300px;
     }
     .main-links li {
         list-style: none;
     }
     .main-links img {
-        width: 5rem;
+        width: 10rem;
         height: auto;
+        background-color: var(--frost);
+        padding: 15px;
+        border-radius: 15px;
     }
-
 
 }
