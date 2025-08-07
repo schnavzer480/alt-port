@@ -8,21 +8,22 @@
 
 :root {
     font-size: 62.5%;
-    --font: #333A41;
-    --frost: #ebf2fdd2;
-    --clicked: rgb(221, 17, 17);
-    --hover: #5c1ecf;
+    --black: #333A41;
+    --icon: #333a41de;
+    --white: #ebf2fdd2;
+    --red: rgb(221, 17, 17);
+    --violet: #5c1ecf;
 }
 
-html, body {
-    min-height: 100vh;
-    /*height: 100vh;
-    display: flex;
-    flex-direction: column;*/
-    font-family: 'DM Sans', sans-serif;
-}
+
 body {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 320px;
+    font-family: 'DM Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .background-image {
