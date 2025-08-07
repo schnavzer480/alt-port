@@ -12,8 +12,9 @@
 
 
 .main-container {
+    /*height: 88vh;
+    min-height: 88vh;*/
     height: 88vh;
-    min-height: 88vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -99,5 +100,9 @@ h3 {
     }
     .laptop-nav-menu a:hover {
         color: var(--red);
+    }
+
+    .main-container {
+        height: 78vh;
     }
 }
